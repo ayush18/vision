@@ -24,9 +24,13 @@
 }
 
 body {
+    background-image:url('../img/Back.png');
+    background-size:contain;
+
 	font-family: 'Droid Sans';
 	font-size: 12px;
 	color: #666;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title h1, .title h2, .title h3, .title h4, .title h5, .title h6 {
-	border-bottom: 5px double #89c236 !important;
+	border-bottom: 5px double #D4EBF3 !important;
 	margin-bottom: -4px !important;
 	display: inline-block !important;
 	padding: 0px 10px !important;
@@ -52,10 +56,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #wrapper {
-	background: #fff;
+	/*background: #AAE1E6*/;
 
 }
-
 /* #Lists
 ================================================== */
 	ul, ol { margin: 0; }
@@ -78,6 +81,9 @@ h1, h2, h3, h4, h5, h6 {
 header {
 	background: #fff;
 	border-bottom: 5px solid #f6f6f6;
+    /*position:fixed;*/
+    right: 0px;
+    left: 0px;
 }
 
 .logo img {
@@ -118,17 +124,17 @@ header {
 
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-	border-top:4px solid #89c236;
-  	background: #89c236 !important;		
+	border-top:4px solid #D4EBF3;
+  	background: #D4EBF3 !important;		
   	color: #fff;
 }
 
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
 .navbar .nav > .active > a:focus {
-  	color: #89c236;
+  	color: #666;
   	text-decoration: none;
-	border-top:4px solid #89c236;
+	border-top:4px solid #D4EBF3;
   	background-color: #fff !important;	
   	-webkit-box-shadow: none;
        -moz-box-shadow: none;
@@ -139,13 +145,13 @@ header {
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
   color: #ffffff;
-  background: #89c236 !important;	
+  background: #D4EBF3 !important;	
 }
 
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover {
   color: #ffffff;
-  background: #89c236 !important;	
+  background: #D4EBF3 !important;	
 }
 
 .navbar .btn-navbar {
@@ -392,7 +398,7 @@ html[xmlns] .slides {display: block;}
 
 .hero-unit {
 	background: #fff url(../img/bg-k10.png);
-	border-left: 4px solid #89c236;
+	border-left: 4px solid #D4EBF3;
 	padding: 13px 13px 13px 15px;
 	font-style: italic;
 	margin: 20px auto;
@@ -484,15 +490,15 @@ html[xmlns] .slides {display: block;}
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
 	border-radius: 50em;
-	-webkit-box-shadow: 0px 0px 0px 3px #89c236;
-	   -moz-box-shadow: 0px 0px 0px 3px #89c236;
-		    box-shadow: 0px 0px 0px 3px #89c236;
+	-webkit-box-shadow: 0px 0px 0px 3px #D4EBF3;
+	   -moz-box-shadow: 0px 0px 0px 3px #D4EBF3;
+		    box-shadow: 0px 0px 0px 3px #D4EBF3;
 	margin: 0 auto;
 	opacity: 1;
 }
 
 .circle-color-full {
-	background-color: #89c236;
+	background-color: #D4EBF3;
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;
 	border-radius: 50em;

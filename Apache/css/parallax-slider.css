@@ -15,7 +15,7 @@
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
-	background: transparent url(../img/slider.jpg) repeat 0% 0%;
+	/*background: transparent url(../img/slider.jpg) repeat 0% 0%;*/
 	border-bottom: 5px solid #f6f6f6 !important;
 	-webkit-box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
 	-moz-box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
@@ -127,7 +127,7 @@
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
-	background: #99cc66;
+	background: #AAE1E6;
 	margin: 3px;
 	cursor: pointer;
 	box-shadow: 
@@ -161,7 +161,7 @@
 	height: 30px;
 	width: 30px;
 	border-radius: 50%;
-	background: #99cc66;
+	background: #AAE1E6;
 	cursor: pointer;
 	z-index: 2000;
 	opacity: 0;
