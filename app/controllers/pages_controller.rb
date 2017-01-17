@@ -3,4 +3,10 @@ class PagesController < ApplicationController
   end
   def About
   end
+  def Gallery
+  end
+  def Events
+  end
+  def Contact
+  end
 end
