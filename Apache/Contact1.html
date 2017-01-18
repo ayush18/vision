@@ -104,70 +104,61 @@
 			
 	</header>
 	<!--end: Header-->
-
+<div>
 	<!-- start: Map -->
-	
-	<div>
-
 		<!-- starts: Google Maps -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<div id="googlemaps-container-top"></div>
-		<div id="googlemaps" class="google-map google-map-full"></div>
-		<div id="googlemaps-container-bottom"></div>
-		<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-		<script src="js/jquery.gmap.min.js"></script>
-		<script type="text/javascript">
-			$('#googlemaps').gMap({
-				maptype: 'ROADMAP',
-				scrollwheel: false,
-				zoom: 17,
-				markers: [
-					{
-						address: 'incubation centre, maulana azad national institute of technology, bhopal, madhya pradesh', // Your Adress Here
-						html: '',
-						popup: false,
-					}
-
-				],
-
-			});
-		</script>
-		<!-- end: Google Maps -->
-	</div>
-	<!-- end: Map -->	
-	
-	<!-- start: Wrapper -->	
-	<div id="wrapper">	
-
-		<!-- start: Container -->	
-		<div class="container">
-			
-			<!-- start: Row -->
 			<div class="row">
-			
-				<!-- start: Contact Info -->
-				<div class="span3">
-					<div class="title"><h3>Contact Info</h3></div>
-					<p>
-						<b>Company Name</b>
-					</p>
-					<p>
-						30 South Park Avenue
-					</p>
+				<div id="googlemaps" class="google-map google-map-full col-md-8" style="width:75%;height:600px;float:left"></div>
+					<!--<div id="googlemaps-container-bottom"></div>-->
+					<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+					<script src="js/jquery.gmap.min.js"></script>
+					<script type="text/javascript">
+					$('#googlemaps').gMap({
+						maptype: 'ROADMAP',
+						scrollwheel: false,
+					zoom: 17,
+					markers: [
+						{
+							address: 'incubation centre, maulana azad national institute of technology, bhopal, madhya pradesh', // Your Adress Here
+							html: '',
+							popup: false,
+						}
+
+					],
+
+				});
+						</script>
+						<!-- end: Google Maps -->
+				<!-- end: Map -->	
+				
+				<!-- start: Wrapper -->	
+				
+				<div class="col-md-4">	
+
+					<!-- start: Container -->	
+						
+						<!-- start: Row -->
+						
+							<!-- start: Contact Info -->
+							<div class="span3">
+								<div class="title"><h3>Contact Info</h3></div>
+							<p>								
+								<b>Vision</b>
+								
+							</p>	
+									Vision Cell, Incubation Centre, MANIT
+								
+						Bhopal, Madhya Pradesh, India
+						
 					<p>	
-						San Francisco, CA 94108, USA
-					</p>	
-					<p>	
-						Phone: (123) 456-7890
+						Phone: +91 ...
 					</p>
-					<p>	
-						Fax: +08 (123) 456-7890
-					</p>
+					
 					<p>
-						Email: contact@companyname.com
-					</p>
 					<p>
-						Web: companyname.com
+						Email: visionmanit@gmail.com [check]
 					</p>
 				</div>
 				<!-- end: Contact Info -->		
@@ -273,15 +264,16 @@
 				</div>
 				<!-- end: Social Sites -->
 			
-			</div>
-			<!-- end: Row -->
+				<!-- end: Row -->
 
+		
+			<!-- end: Container -->
 		</div>
-		<!-- end: Container -->
+	
 				
   	</div>
 	<!-- end: Wrapper  -->			
-
+</div>
     <!-- start: Footer Menu -->
 	<div id="footer-menu" class="hidden-tablet hidden-phone">
 
