@@ -6,7 +6,7 @@ http://www.tooplate.com/view/2058-metallic-slider
 
 
 a, a:link, a:visited { 
-	color: #e9e7e0; 
+	
 	font-weight: normal; 
 	text-decoration: none; 
 	
@@ -113,7 +113,7 @@ h6 { font-size: 10px; margin: 0 0 5px; padding: 0; }
 	width: 938px;
 	height: 478px;
 	padding: 15px;
-    margin-left: 190px;
+    margin-left: 175px;
     margin-top: 20px;
 
 	background: url(../images/tooplate_content.png) no-repeat
