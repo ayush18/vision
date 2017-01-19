@@ -1078,7 +1078,7 @@ a.buy:hover {
 }
 
 #footer-menu-logo img {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 #footer-menu-links {
@@ -1549,5 +1549,13 @@ form#newsletter input[type=submit] {
 		min-height: 64px;
 	}
 	
+	.navbar, .navbar-inner, .nav {
+		min-height: 0px;
+		width:100%;
+	}
+	
+	#footer-menu-links {
+		float:right;
+	}
 }
 	
